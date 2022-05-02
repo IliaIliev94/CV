@@ -4,100 +4,98 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Profile</title>
+		<title>My Site</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="icon" href="favicon.ico?v=2" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<header>
-			<table>
-				<tr>
-					<td>
-						<img
-							style="
-								height: 215px;
-								max-width: 200px;
-								border-radius: 50%;
-							"
-							src="images/DSC_0034.JPG"
-							alt="profile picture"
-						/>
-					</td>
-					<td>
-						<h2>Ilia Iliev</h2>
-						<p><em>CS student</em></p>
-						<p>I am an aspiring web developer</p>
-					</td>
-				</tr>
-			</table>
+		<div class="top-container">
+			<img class="top-cloud" src="images/cloud.png" alt="cloud" />
+			<h1>I'm Ilia</h1>
+			<h2>a <span class="underline">pro</span>grammer.</h2>
+			<img class="bottom-cloud" src="images/cloud.png" alt="cloud" />
+			<img src="images/mountain.png" alt="mountain" />
+		</div>
+		<div class="middle-container">
+			<div class="profile">
+				<img src="images/profile.png" alt="profile-picture" />
+				<h2>Hello.</h2>
+				<p>
+					My name is Ilia Iliev and I am an aspiring software
+					engineer.
+				</p>
+			</div>
 			<hr />
-		</header>
-		<main>
-			<article>
-				<h3>Education</h3>
-				<ul>
-					<li>Management - High School of Economics Shumen</li>
-					<li>Marketing - University of Economics Varna</li>
-					<li>Public Finance - University of Economics Varna</li>
-					<li>Computer Science - Software University</li>
-				</ul>
-			</article>
-			<hr style="background: red; height: 3px; border: none" />
-			<article>
-				<h3>Work Experience</h3>
-				<table>
-					<thead>
-						<tr>
-							<th>Dates</th>
-							<th>Work</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>2018-2019</td>
-							<td>Marketing Specialist at Onsites</td>
-						</tr>
-						<tr>
-							<td>2020-2021</td>
-							<td>Logistics Specialist at Meggle Bulgaria</td>
-						</tr>
-					</tbody>
-				</table>
-			</article>
-			<hr style="background: red; height: 3px; border: none" />
-			<article>
-				<h3>Skills</h3>
-				<table style="border: 1px solid">
-					<tr>
-						<td>
-							<table cellspacing="10" style="border: 1px solid">
-								<tr>
-									<td>Web Development</td>
-									<td>⭐⭐⭐⭐</td>
-								</tr>
-								<tr>
-									<td>Analysis</td>
-									<td>⭐⭐⭐⭐⭐</td>
-								</tr>
-							</table>
-						</td>
-						<td>
-							<table cellspacing="10" style="border: 1px solid">
-								<tr>
-									<td>UX Design</td>
-									<td>⭐⭐⭐</td>
-								</tr>
-								<tr>
-									<td>UI Design</td>
-									<td>⭐⭐⭐</td>
-								</tr>
-							</table>
-						</td>
-					</tr>
-				</table>
-			</article>
-		</main>
-		<hr />
-		<footer>
-			<a href="/contact.html">My Contacts</a>
-		</footer>
+			<div class="skills">
+				<h2>My Skills.</h2>
+				<div class="skill-row">
+					<img
+						class="skill-row-icon computer-icon"
+						src="images/computer.png"
+						alt="computer"
+					/>
+					<h3>Web Development</h3>
+					<p>
+						I have taken practical courses on C#, ASP .NET Core,
+						SQL, HTML, CSS, Javascript and React from Software
+						University.
+					</p>
+				</div>
+				<div class="skill-row">
+					<img
+						class="skill-row-icon puzzle-icon"
+						src="images/puzzle.png"
+						alt="puzzle"
+					/>
+					<h3>Problem solving and logical thinking</h3>
+					<p>
+						I regularly solve puzzles and other problem solving
+						challanges.
+					</p>
+				</div>
+			</div>
+			<hr />
+			<div class="contact-me">
+				<h2>Get In Touch</h2>
+				<h3>Email</h3>
+				<p>
+					You can send a message to my email in case you want to get
+					in touch with me.
+				</p>
+				<a class="btn contact-btn" href="mailto:ilia_iliev94@abv.bg"
+					>CONTACT ME</a
+				>
+			</div>
+		</div>
+
+		<div class="bottom-container">
+			<a
+				class="footer-link footer-link-linkedin"
+				href="https://www.linkedin.com/in/ilia-iliev-633482120/"
+				>LinkedIn</a
+			>
+			<a
+				class="footer-link footer-link-twitter"
+				href="https://twitter.com/Iliya94628232"
+				>Twitter</a
+			>
+			<a
+				class="footer-link footer-link-github"
+				href="https://github.com/IliaIliev94"
+				>Github</a
+			>
+			<p>© Ilia Iliev.</p>
+			<a
+				href="https://www.flaticon.com/free-icons/puzzle"
+				title="puzzle icons"
+				>Puzzle icons created by Freepik - Flaticon</a
+			>
+		</div>
 	</body>
 </html>
